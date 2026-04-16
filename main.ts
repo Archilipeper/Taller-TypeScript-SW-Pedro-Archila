@@ -25,7 +25,7 @@ for (const serie of series){
         <div class="card-body">
           <h5 class="card-title ">${serie.nombre}</h5>
           <p class="card-text">${serie.descripcion}</p>
-          <a href="${serie.link}" target="_blank" class="btn btn-primary">Go to page</a>
+          <p><a href="${serie.link}" target="_blank">${serie.link}</a></p>
         </div>
       </div>
     `;
